@@ -1,6 +1,7 @@
 # 系統與環境
 .DS_Store
-.vscode/ # 排除 VS Code 的個人偏好設定
+# 排除 VS Code 的個人偏好設定
+.vscode/ 
 __pycache__/
 
 ### 筆記本與 IDE 紀錄 ###
@@ -12,7 +13,7 @@ __pycache__/
 *.zip
 *.parquet
 
-# 排除個人草稿
+# 排除個人草稿 
 *.docx
 *.pptx
 
