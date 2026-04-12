@@ -21,6 +21,7 @@ __pycache__/
 
 # RStudio / Posit 連接紀錄
 rsconnect/
+*.Rproj
 
 # 如果專案內有 data 資料夾，整個排除
 **/data/
@@ -39,7 +40,7 @@ rsconnect/
 
 # 清理 MitsuiPrediction_Project
 /MitsuiPrediction_Project/Scripts/etl.sql
-/MitsuiPrediction_Project/Scripts//salesKPI.sql
+/MitsuiPrediction_Project/Scripts/salesKPI.sql
 
 # 清理 Stock_System_Project  
 Stock_System_Project/.venv/
