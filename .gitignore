@@ -40,3 +40,9 @@ rsconnect/
 # 清理 MitsuiPrediction_Project
 /MitsuiPrediction_Project/Scripts/etl.sql
 /MitsuiPrediction_Project/Scripts//salesKPI.sql
+
+# 清理 Stock_System_Project  
+Stock_System_Project/.venv/
+Stock_System_Project/__pycache__/
+Stock_System_Project/.env
+Stock_System_Project/*.pyc
