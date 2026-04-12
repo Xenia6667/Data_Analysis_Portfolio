@@ -34,8 +34,8 @@ rsconnect/
 /CoffeeSales_Project/
 
 #### 清理特定專案的特定檔案 ####
-# 清理 fastfoodsales_Project
-/fastfoodsales_Project/Scripts/core_analysis.sql
+# 清理 FastFoodSales_Project
+/FastFoodSales_Project/Scripts/core_analysis.sql
 
 # 清理 MitsuiPrediction_Project
 /MitsuiPrediction_Project/Scripts/etl.sql
