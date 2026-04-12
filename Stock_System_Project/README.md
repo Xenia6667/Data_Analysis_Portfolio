@@ -62,6 +62,6 @@ Open `Notebooks/01_data_exploration.ipynb` and run cells in order.
 - [x] Phase 1 — PostgreSQL schema design
 - [x] Phase 2 — yfinance data pipeline
 - [x] Phase 3 — Data exploration notebook
-- [ ] Phase 4 — Technical indicator engine (MA, Fibonacci, S&R, Signals)
+- [x] Phase 4 — Technical indicator engine (MA, Fibonacci, S&R, Signals)
 - [ ] Phase 5 — FastAPI webhook integration
 - [ ] Phase 6 — Tableau dashboard
