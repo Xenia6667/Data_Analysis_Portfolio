@@ -4,6 +4,10 @@
 .vscode/ 
 __pycache__/
 
+# 排除 Python 的虛擬環境資料夾
+.gitignore
+requirements.txt
+
 ### 筆記本與 IDE 紀錄 ###
 .ipynb_checkpoints/
 
@@ -16,6 +20,7 @@ __pycache__/
 # 排除個人草稿 
 *.docx
 *.pptx
+*.txt
 
 # RStudio / Posit 連接紀錄
 rsconnect/
