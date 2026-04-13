@@ -20,7 +20,17 @@
 
 ---
 
-## 2. 商業問題與目標 (Business Context & Problem)
+## 2. 數據來源 (Data Source)
+
+| | |
+|---|---|
+| **資料集** | [Fast Food Sales Report](https://www.kaggle.com/datasets/rajatsurana979/fast-food-sales-report) |
+| **平台** | Kaggle |
+| **內容** | Transaction-level fast food sales data including item, quantity, price, date, and time of sale |
+
+---
+
+## 3. 商業問題與目標 (Business Context & Problem)
 
 ### 痛點 (Pain Points)
 
@@ -34,7 +44,7 @@
 
 ---
 
-## 3. 互動式儀表板 (Interactive Dashboard)
+## 4. 互動式儀表板 (Interactive Dashboard)
 
 **[點擊進入互動式儀表板 (Tableau Public)](https://public.tableau.com/views/fast_food_test/2?:language=zh-TW&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
@@ -50,7 +60,7 @@
 
 ---
 
-## 4. 統計分析與洞察 (Statistical Analysis)
+## 5. 統計分析與洞察 (Statistical Analysis)
 
 > **核心發現 (Key Findings)**
 >
@@ -61,7 +71,7 @@
 
 ---
 
-## 5. 技術實作與代碼 (Implementation)
+## 6. 技術實作與代碼 (Implementation)
 
 ### 流程架構 (Workflow)
 
@@ -77,7 +87,7 @@
 
 ---
 
-## 6. 商業建議與下一步 (Recommendations & Next Steps)
+## 7. 商業建議與下一步 (Recommendations & Next Steps)
 
 | | |
 |---|---|
