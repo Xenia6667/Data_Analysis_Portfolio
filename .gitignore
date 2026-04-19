@@ -23,6 +23,9 @@ __pycache__/
 rsconnect/
 *.Rproj
 
+# 學習筆記資料夾（個人學習記錄，不納入版本控制）
+/Learning_Notes/
+
 # 如果專案內有 data 資料夾，整個排除
 **/data/
 **/www/
