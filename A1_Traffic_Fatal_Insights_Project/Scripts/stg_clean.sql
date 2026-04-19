@@ -101,7 +101,39 @@ SELECT
 
     -- [15] 地理座標
     NULLIF("經度"::text, '')::numeric                                                AS longitude,
-    NULLIF("緯度"::text, '')::numeric                                                AS latitude
+    NULLIF("緯度"::text, '')::numeric                                                AS latitude,
+
+    -- [16] 縣市名稱
+    SUBSTRING(NULLIF(TRIM("發生地點"), ''), 1, 3)                                     AS city_zh,
+    CASE SUBSTRING(NULLIF(TRIM("發生地點"), ''), 1, 3)
+        WHEN '台北市' THEN 'Taipei'
+        WHEN '臺北市' THEN 'Taipei'
+        WHEN '新北市' THEN 'New Taipei'
+        WHEN '桃園市' THEN 'Taoyuan'
+        WHEN '台中市' THEN 'Taichung'
+        WHEN '臺中市' THEN 'Taichung'
+        WHEN '台南市' THEN 'Tainan'
+        WHEN '臺南市' THEN 'Tainan'
+        WHEN '高雄市' THEN 'Kaohsiung'
+        WHEN '基隆市' THEN 'Keelung'
+        WHEN '新竹市' THEN 'Hsinchu'
+        WHEN '新竹縣' THEN 'Hsinchu'
+        WHEN '苗栗縣' THEN 'Miaoli'
+        WHEN '彰化縣' THEN 'Changhua'
+        WHEN '南投縣' THEN 'Nantou'
+        WHEN '雲林縣' THEN 'Yunlin'
+        WHEN '嘉義市' THEN 'Chiayi'
+        WHEN '嘉義縣' THEN 'Chiayi'
+        WHEN '屏東縣' THEN 'Pingtung'
+        WHEN '宜蘭縣' THEN 'Yilan'
+        WHEN '花蓮縣' THEN 'Hualien'
+        WHEN '台東縣' THEN 'Taitung'
+        WHEN '臺東縣' THEN 'Taitung'
+        WHEN '澎湖縣' THEN 'Penghu'
+        WHEN '金門縣' THEN 'Kinmen'
+        WHEN '連江縣' THEN 'Lienchiang'
+        ELSE NULL
+    END                                                                              AS city_en
 
 FROM npa_tma1;
 

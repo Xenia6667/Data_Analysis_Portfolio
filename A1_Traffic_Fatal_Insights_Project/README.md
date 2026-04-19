@@ -4,9 +4,8 @@
 >
 > | | |
 > |---|---|
-> | **產品展示 (Product)** | [互動式儀表板 (Tableau Public)](#) |
-> | **分析報告 (Report)** | [完整報告](#) |
-> | **原始代碼 (Code)** | [GitHub Repository](#) |
+> | **產品展示 (Product)** | [互動式儀表板 (Tableau Public)](https://public.tableau.com/views/Taiwan_A1_Fatal_Accident_Analysis/1?:language=zh-TW&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) |
+> | **原始代碼 (Code)** | [GitHub Repository](https://github.com/Xenia6667/Data_Analysis_Portfolio/tree/main/A1_Traffic_Fatal_Insights_Project) |
 
 ---
 
@@ -92,15 +91,31 @@
 
 ## 5. 互動式儀表板 (Interactive Dashboard)
 
-**[點擊進入互動式儀表板 (Tableau Public)](#)**
+**[點擊進入互動式儀表板 (Tableau Public)](https://public.tableau.com/views/Taiwan_A1_Fatal_Accident_Analysis/1?:language=zh-TW&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+
+### Page 1 — Traffic Accident Overview
+
+> A high-level summary of traffic fatality accidents (A1) in Taiwan. Explore accident distribution by city, peak hours, monthly trends, and weather conditions.
 
 | 視圖 | 說明 |
 |---|---|
-| **Overview KPIs** | 總死亡事故數、死亡人數、最危險時段、肇逃件數 |
-| **Time Heatmap** | 24小時 × 星期幾的事故熱力圖 |
-| **Geospatial Map** | 以經緯度呈現全台死亡事故密度熱點 |
-| **Cause Analysis** | 主要肇因 Treemap 與環境交叉分析 |
-| **Party Profile** | 年齡層、性別、車種的交叉死亡分析 |
+| **KPIs × 4** | Total Accidents / Fatalities / Injuries / Hit-and-Run |
+| **Accident Distribution by City** | 各縣市事故數地圖 |
+| **Peak Accident Hours** | 24小時 × 星期幾事故熱力圖 |
+| **Monthly Trend** | 月別事故數長條圖 |
+| **Weather Conditions** | 天候分布長條圖 |
+
+### Page 2 — Cause & Party Analysis
+
+> A deep dive into accident causes, road conditions, vehicle types, and demographic profiles of parties involved in fatal accidents.
+
+| 視圖 | 說明 |
+|---|---|
+| **Accident Causes** | 主要肇因 Treemap |
+| **Weather × Road Condition** | 天候與路面狀態交叉熱力圖 |
+| **Vehicle Type** | 當事者車種分布長條圖 |
+| **Age Group** | 年齡層分布長條圖 |
+| **Cause × Age × Fatalities** | 肇因、年齡與死亡人數氣泡圖 |
 
 ---
 
