@@ -6,7 +6,7 @@
 > | | |
 > |---|---|
 > | **產品展示 (Product)** | [互動式儀表板 (Tableau Public)](https://public.tableau.com/views/BrazilianOlistEcommerceDataInsightsSalesPerformanceCustomerValueandProductPerformanceAnalysisOlist_17755805289840/1_1?:language=zh-TW&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) |
-> | **原始代碼 (Code)** | [GitHub Repository](https://github.com/Xenia6667/Data_Analysis_Portfolio/tree/main/MitsuiPrediction_Project) |
+> | **原始代碼 (Code)** | [GitHub Repository](https://github.com/Xenia6667/Data_Analysis_Portfolio/tree/main/Olist_Ecommerce_Analytics) |
 
 ---
 
@@ -98,7 +98,7 @@
 ### 資料夾結構 (Project Structure)
 
 ```
-MitsuiPrediction_Project/
+Olist_Ecommerce_Analytics/
 ├── Data/
 │   ├── raw_data/olist/         ← 原始 CSV（9 張）
 │   └── Processed_Data/         ← 清理後資料

@@ -41,9 +41,9 @@ rsconnect/
 # 清理 FastFoodSales_Project
 /FastFoodSales_Project/Scripts/core_analysis.sql
 
-# 清理 MitsuiPrediction_Project
-/MitsuiPrediction_Project/Scripts/etl.sql
-/MitsuiPrediction_Project/Scripts/salesKPI.sql
+# 清理 Olist_Ecommerce_Analytics
+/Olist_Ecommerce_Analytics/Scripts/etl.sql
+/Olist_Ecommerce_Analytics/Scripts/salesKPI.sql
 
 # 清理 Stock_System_Project  
 Stock_System_Project/.venv/
